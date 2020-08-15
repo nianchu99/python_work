@@ -1,7 +1,7 @@
 #阶乘实例
-a = int(input("Give me a number :"))
-i = 1
-for c in range(1,a+1):
-    i = i * c
+a = int(input("give me a number:"))
+b = 1
+for i in range(1,a+1):
+    b = b * i
 
-print(a,"的阶乘是：{}".format(i))
+print(b)
